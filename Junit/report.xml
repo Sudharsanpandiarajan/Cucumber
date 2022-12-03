@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="13.212808">
-<testcase classname="To validate the login functionality" name="To valid the login by passing data" time="5.192855">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.292873">
+<testcase classname="To validate the login functionality" name="To valid the login by passing data" time="3.253935">
 <failure message="org.junit.ComparisonFailure: Chech the message expected:&lt;[F]acebook&gt; but was:&lt;[f]acebook&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.stepdefinition.FacebookCode.to_pass_the_data_to_the_email_box(FacebookCode.java:43)&#13;&#10;&#9;at ✽.To pass the data to the email box(src/test/resources/Facebook.feature:10)&#13;&#10;"><![CDATA[When To launch the url of the application '.................................passed
 And To pass the data to the email box.......................................failed
 And To pass the data to the Password box....................................skipped
@@ -13,7 +13,7 @@ org.junit.ComparisonFailure: Chech the message expected:<[F]acebook> but was:<[f
 	at ✽.To pass the data to the email box(src/test/resources/Facebook.feature:10)
 ]]></failure>
 </testcase>
-<testcase classname="To validate the login btn in amazon" name="To validate the btn by passing data" time="8.019953">
+<testcase classname="To validate the login btn in amazon" name="To validate the btn by passing data" time="7.038938">
 <system-out><![CDATA[When To launch the url......................................................passed
 When To click the sign in btn...............................................passed
 And To pass the mobile num..................................................passed

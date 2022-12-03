@@ -40,8 +40,7 @@ public class FacebookCode extends BaseClass{
 		
 		String a = asMap.get("emailtwo");
 		
-		Assert.assertEquals("Chech the message", "Facebook","facebook");
-	
+		
 		
 		
 		passText(f.getEmailtxt(), a);
